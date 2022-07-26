@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.box__cell {
+    border: 2px dashed blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.playerX {
+    color: #09C372;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.playerO {
+    color: #498AFB;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
